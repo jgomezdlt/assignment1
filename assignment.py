@@ -1,43 +1,31 @@
 # The # symbol is the comment symbol for python, meaning anything after it won't be treated as code.
-#  Type you name her: 
+# Type your names here: 
 
-# Problem 1: Creating Initials 
-# Given 2 variables first_name and last_name, use indexing to print the initials in uppercase
-# strings have a .uppper() method that capitalizes all character    Ex "ab".upper() -> "AB" 
-first_name = "Patrick"
-last_name = "Star"
-
-
-
-
-
-# Problem 2: Sandwhich String
-# Given an outer string and word string, create a new string with the word in the middle of the outer string
-# Print the new string
-outer = "<<<>>>"
-word = "Cold"
+# Problem 1
+# Define a function called concert_calculator() that takes 2 required paramaters ticket price and number of tickets and 2 optional parameters sale tax and processing fee
+# Returns a string
+# Example calls of concert_calculator()
+# concert_calculator(100, 3, 0.1, 5.50) -> "The price for 3 tickets at $100 each with 10% sales tax and $5.50 processing fee is $330.5"
+# Insert your code below! 
 
 
 
 
 
-# Problem 3: Switching sides
-# Given a string, create a new string with the last 2 characters swapped with the beginnning 2 characters 
-# You can only use string indexing and + concatenation
-switch = "chocolate" # expected result: teocolach
+# Problem 2
+# Define a function codename_gen() that takes 3 parameters each of them strings: first name, last name, favorite word 
+# Returns a string codename starting with Mr.codename_here
+# Here is the rule for the codename generations:
+# Take the first and last letters of the first name, wrap them around the middle 3 letters of the last name, and add the length of the favorite word converted
+# Example call codename_gen("Natasha", "Romanoff", "Viper") -> Mr.Nanoa-5
+#              codename_gen("Alex", "Pierce", "Hydra") -> Mr.Aercx-5
+# Only the first letter should be capitalized 
+# Help for the last name middle characters: 
+# If the last name is odd length, take the middle character and the characters to the left and right 
+# If the last name is even lrngth, take the 2 middle characters and the character to the right 
+# Ex. Gomez -> ome, Buhr -> uhr, Miller -> lle
 
 
 
 
 
-# Problems 4: Typo Fixer
-# Given a string, where a letter is missing. Create a new string with the missing letter added back in
-# You cannout use .replace(), only use index and concatenation
-missing = "infor_ation"
-missing_letter = "m"
-
-
-
-
-
-# Problem 5: 
